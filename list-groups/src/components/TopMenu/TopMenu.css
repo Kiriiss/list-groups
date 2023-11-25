@@ -1,0 +1,86 @@
+
+.top-menu {
+
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 6px;
+    border: 1px solid #0c030021;
+    margin-bottom: 50px;
+}
+
+.menu {
+
+}
+
+
+.menu__item {
+    position: relative;
+    border-top:1px solid #0c030021;
+    padding:18px;
+    padding-left: 60px;
+}
+.menu__item:nth-child(1){
+    border-top:none;
+    height: 45px;
+}
+.menu__item:nth-child(3){
+    height: 45px;
+}
+.title:before {
+    content: "";
+    width: 33px;
+    height: 33px;
+    background-image: url("https://github.com/twbs.png");
+    background-size: contain;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    transform: translateX(-145%);
+}
+
+.title {
+    display: inline-block;
+    position: relative;
+    color: rgb(33, 37, 41);
+    cursor: pointer;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    font-weight: 500;
+    height: 19.1875px;
+    line-height: 19.2px;
+    width: 354.203px;
+    text-align: start;
+}
+
+.text {
+
+    color: rgb(33, 37, 41);
+    cursor: pointer;
+    display: block;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    font-weight: 400;
+    height: 48px;
+    line-height: 24px;
+    opacity: 0.75;
+    text-align: start;
+    text-size-adjust: 100%;
+    width: 354.203px;
+}
+
+.small-text {
+    font-size: 13px;
+    margin-top: -10px;
+    color: #0c030059
+}
+.menu__item:hover{
+    background-color: #f2f0e9bd;
+}
+.menu__item:active{
+    background-color:#cbced6bf;
+}
+.active{
+    background-color: #f2f0e9bd;
+}
